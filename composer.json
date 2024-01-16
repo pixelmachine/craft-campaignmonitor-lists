@@ -22,8 +22,14 @@
     "require": {
         "craftcms/cms": "^3.4.0|^4.0.0",
         "campaignmonitor/createsend-php": "^6.1.1",
-        "clearbold/craft-campaignmonitor-service": "^2.0.0"
+        "clearbold/craft-campaignmonitor-service": "dev-v2"
     },
+    "repositories": [
+        {
+          "type": "git",
+          "url": "git@github.com:pixelmachine/craft-campaignmonitor-service.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
           "clearbold\\cmlists\\": "src/"
