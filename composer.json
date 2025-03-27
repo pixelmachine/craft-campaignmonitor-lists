@@ -1,7 +1,7 @@
 {
     "name": "clearbold/craft-campaignmonitor-lists",
     "description": "View and manage your Campaign Monitor subscriber lists in your Craft CMS control panel, add a subscribe form to your website for new subscribers.",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "type": "craft-plugin",
     "homepage": "https://github.com/clearbold/craft-campaignmonitor-lists",
     "license": "MIT",
@@ -20,7 +20,7 @@
         "campaign monitor"
     ],
     "require": {
-        "craftcms/cms": "^3.4.0|^4.0.0",
+        "craftcms/cms": "^3.4.0|^4.0.0|^5.0.0",
         "campaignmonitor/createsend-php": "^6.1.1",
         "clearbold/craft-campaignmonitor-service": "^2.0.0"
     },
@@ -29,6 +29,12 @@
           "clearbold\\cmlists\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "url": "https://github.com/pixelmachine/craft-campaignmonitor-service.git",
+            "type": "github"
+        }
+    ],
     "support": {
         "docs": "https://github.com/clearbold/craft-campaignmonitor-lists",
         "source": "https://github.com/clearbold/craft-campaignmonitor-lists",
@@ -41,5 +47,16 @@
         "developer": "Clearbold",
         "developerUrl": "http://clearbold.com/",
         "class": "clearbold\\cmlists\\CmLists"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    },
+    "require-dev": {
+        "craftcms/phpstan": "dev-main"
     }
 }
