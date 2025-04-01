@@ -42,7 +42,7 @@
     },
     "extra": {
         "name": "Campaign Monitor Lists (PM)",
-        "handle": "cm-lists-pm",
+        "handle": "cm-lists",
         "hasCpSection": true,
         "developer": "Clearbold",
         "developerUrl": "http://clearbold.com/",
