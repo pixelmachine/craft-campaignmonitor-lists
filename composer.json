@@ -1,5 +1,5 @@
 {
-    "name": "clearbold/craft-campaignmonitor-lists",
+    "name": "pixelmachine/craft-campaignmonitor-lists",
     "description": "View and manage your Campaign Monitor subscriber lists in your Craft CMS control panel, add a subscribe form to your website for new subscribers.",
     "version": "3.0.0",
     "type": "craft-plugin",
@@ -22,7 +22,7 @@
     "require": {
         "craftcms/cms": "^3.4.0|^4.0.0|^5.0.0",
         "campaignmonitor/createsend-php": "^6.1.1",
-        "clearbold/craft-campaignmonitor-service": "dev-master"
+        "pixelmachine/craft-campaignmonitor-service": "dev-master"
     },
     "autoload": {
         "psr-4": {
