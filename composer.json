@@ -41,8 +41,8 @@
         "issues": "https://github.com/clearbold/craft-campaignmonitor-lists/issues"
     },
     "extra": {
-        "name": "Campaign Monitor Lists",
-        "handle": "cm-lists",
+        "name": "Campaign Monitor Lists (PM)",
+        "handle": "cm-lists-pm",
         "hasCpSection": true,
         "developer": "Clearbold",
         "developerUrl": "http://clearbold.com/",
